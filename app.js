@@ -1,5 +1,4 @@
-function divideNumbers(a, b) {}
-
+function divideNumbers(a, b) {
 // Test cases
 try {
   console.log(divideNumbers(10, 2)); // should print 5
@@ -8,4 +7,6 @@ try {
   console.log(divideNumbers(12)); // should throw an error
 } catch (error) {
   console.error(error.message);
+}
+
 }
